@@ -11,16 +11,16 @@ highlight_code = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
-theme="slim"
+#theme="slim"
 
 taxonomies = [
     {name = "tags", paginate_by = 5, rss = true}
 ]
 [extra]
 # Show a summary of a post in a list
-slim_summary = false
+slim_summary = true
 # Show the content of a post in a list
-slim_content = false
+slim_content = true
 # Links to show at the top of the menu
 slim_menu = [
     {url = "$BASE_URL/tags", name = "Tags"}
